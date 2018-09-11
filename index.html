@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style>
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+    }
+
+    #map {
+        width: 920px;
+        height: 720px;
+    }
+    </style>
+</head>
+
+<body>
+    <div id='map'></div>
+    <script>
+    var featureLayer = new L.GeoJSON();
+    var defaultStyle = {
+        color: "#fff",
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.001,
+        fillColor: "#fff"
+    };
+
+    var map = L.map('map', {
+        crs: L.CRS.Simple,
+
+        zoomControl: false
+    });
+
+    var yx = L.latLng;
+
+    var xy = function(x, y) {
+        if (L.Util.isArray(x)) {
+            return yx(x[1], x[0]);
+        }
+        return yx(y, x);
+    };
+
+    var bounds = [xy(-480, -360), xy(0, 0)];
+    var image = L.imageOverlay('d1d6c9ef-fc7e-4a8f-99d0-7de30af0039f-00e1dce8-8fc5-447a-9178-0d7fcdb38d5d.jpg', bounds).addTo(map);
+
+    map.setView(xy(-250, -180), 1);
+
+    var onEachFeature = function(feature, layer) {
+        layer.setStyle(defaultStyle);
+        (function(layer, properties) {
+            layer.on("mouseover", function(e) {
+                var popup = $("<div></div>", {
+                    id: "popup-" + properties.area,
+                    css: {
+                        position: "absolute",
+                        top: "0px",
+                        right: "0px",
+                        zIndex: 1002,
+                        backgroundColor: "white",
+                        padding: "8px",
+                        border: "1px solid #ccc"
+                    }
+                });
+                var hed = $("<div></div>", {
+                    text: properties.area,
+                    css: {
+                        fontSize: "30px"
+                    }
+                }).appendTo(popup);
+                popup.appendTo("#map");
+            });
+            layer.on("mouseout", function(e) {
+                layer.setStyle(defaultStyle);
+                $("#popup-" + properties.area).remove();
+            });
+        })(layer, feature.properties);
+    };
+
+    $.getJSON("d1d6c9ef-fc7e-4a8f-99d0-7de30af0039f-00e1dce8-8fc5-447a-9178-0d7fcdb38d5d_segnet.geojson", function(data) {
+        var featureLayer = L.geoJson(data, {
+            onEachFeature: onEachFeature
+        });
+        map.addLayer(featureLayer);
+    });
+    </script>
+</body>
+
+</html>
