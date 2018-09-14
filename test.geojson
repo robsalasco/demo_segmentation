@@ -1,0 +1,200 @@
+[
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 12.954,
+    "normal": "07273653-fd01-461b-8044-8135de44c467.jpg",
+    "polygons": "07273653-fd01-461b-8044-8135de44c467_segnet.geojson",
+    "segmented": "07273653-fd01-461b-8044-8135de44c467_segnet.png",
+    "x": -70.65584395718864,
+    "y": -33.533060445653376
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 12.954,
+    "normal": "183ab4d4-d914-460f-8004-952734c5d07d.jpg",
+    "polygons": "183ab4d4-d914-460f-8004-952734c5d07d_segnet.geojson",
+    "segmented": "183ab4d4-d914-460f-8004-952734c5d07d_segnet.png",
+    "x": -70.65584395718864,
+    "y": -33.533060445653376
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 191.971,
+    "normal": "c6e0d8e9-76bc-4fd5-b4d9-fa78e4360c0d.jpg",
+    "polygons": "c6e0d8e9-76bc-4fd5-b4d9-fa78e4360c0d_segnet.geojson",
+    "segmented": "c6e0d8e9-76bc-4fd5-b4d9-fa78e4360c0d_segnet.png",
+    "x": -70.65552613208511,
+    "y": -33.53187429102189
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 191.971,
+    "normal": "07a04b7f-f6ea-41ba-8950-3380d5de9817.jpg",
+    "polygons": "07a04b7f-f6ea-41ba-8950-3380d5de9817_segnet.geojson",
+    "segmented": "07a04b7f-f6ea-41ba-8950-3380d5de9817_segnet.png",
+    "x": -70.65552613208511,
+    "y": -33.53187429102189
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 101.63,
+    "normal": "0a3d6c27-6d60-446d-aa26-775de26a4e9a.jpg",
+    "polygons": "0a3d6c27-6d60-446d-aa26-775de26a4e9a_segnet.geojson",
+    "segmented": "0a3d6c27-6d60-446d-aa26-775de26a4e9a_segnet.png",
+    "x": -70.65734132251201,
+    "y": -33.53203959531656
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 101.63,
+    "normal": "64586bbc-c924-48fb-b85e-298523fe9ffa.jpg",
+    "polygons": "64586bbc-c924-48fb-b85e-298523fe9ffa_segnet.geojson",
+    "segmented": "64586bbc-c924-48fb-b85e-298523fe9ffa_segnet.png",
+    "x": -70.65734132251201,
+    "y": -33.53203959531656
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 281.629,
+    "normal": "83f55ea3-7b18-4f65-b274-7dffd505722c.jpg",
+    "polygons": "83f55ea3-7b18-4f65-b274-7dffd505722c_segnet.geojson",
+    "segmented": "83f55ea3-7b18-4f65-b274-7dffd505722c_segnet.png",
+    "x": -70.65716854429954,
+    "y": -33.53206923628031
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 281.629,
+    "normal": "a1f73edf-5122-4923-a731-38213a7d6ab4.jpg",
+    "polygons": "a1f73edf-5122-4923-a731-38213a7d6ab4_segnet.geojson",
+    "segmented": "a1f73edf-5122-4923-a731-38213a7d6ab4_segnet.png",
+    "x": -70.65716854429954,
+    "y": -33.53206923628031
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 281.629,
+    "normal": "aae610d5-aa0b-4a62-a134-08013b5de857.jpg",
+    "polygons": "aae610d5-aa0b-4a62-a134-08013b5de857_segnet.geojson",
+    "segmented": "aae610d5-aa0b-4a62-a134-08013b5de857_segnet.png",
+    "x": -70.65674663355759,
+    "y": -33.53214161608024
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 101.63,
+    "normal": "db5632ec-098d-4a5b-bcaf-67cd1a932bfd.jpg",
+    "polygons": "db5632ec-098d-4a5b-bcaf-67cd1a932bfd_segnet.geojson",
+    "segmented": "db5632ec-098d-4a5b-bcaf-67cd1a932bfd_segnet.png",
+    "x": -70.65670845658181,
+    "y": -33.532148165355636
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 280.113,
+    "normal": "84710051-6722-4dcd-920e-e27baebe8cc8.jpg",
+    "polygons": "84710051-6722-4dcd-920e-e27baebe8cc8_segnet.geojson",
+    "segmented": "84710051-6722-4dcd-920e-e27baebe8cc8_segnet.png",
+    "x": -70.6561679525431,
+    "y": -33.532234891822
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 100.113,
+    "normal": "0e8e14f0-8892-49d9-ae57-adeca9b720f7.jpg",
+    "polygons": "0e8e14f0-8892-49d9-ae57-adeca9b720f7_segnet.geojson",
+    "segmented": "0e8e14f0-8892-49d9-ae57-adeca9b720f7_segnet.png",
+    "x": -70.65632418968075,
+    "y": -33.5322116620367
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 100.113,
+    "normal": "25be4297-d0a0-4064-b72c-96c220152df8.jpg",
+    "polygons": "25be4297-d0a0-4064-b72c-96c220152df8_segnet.geojson",
+    "segmented": "25be4297-d0a0-4064-b72c-96c220152df8_segnet.png",
+    "x": -70.65579413744956,
+    "y": -33.532290470875374
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 100.113,
+    "normal": "27db862b-6aae-4520-96a4-7363de2a1c4a.jpg",
+    "polygons": "27db862b-6aae-4520-96a4-7363de2a1c4a_segnet.geojson",
+    "segmented": "27db862b-6aae-4520-96a4-7363de2a1c4a_segnet.png",
+    "x": -70.65590014798045,
+    "y": -33.532274709286945
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 192.954,
+    "normal": "f14902d1-8755-46e9-94fd-643e6ddccec4.jpg",
+    "polygons": "f14902d1-8755-46e9-94fd-643e6ddccec4_segnet.geojson",
+    "segmented": "f14902d1-8755-46e9-94fd-643e6ddccec4_segnet.png",
+    "x": -70.65578335496976,
+    "y": -33.5328408263477
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 12.954,
+    "normal": "8c59a635-1e0a-4311-8d90-5034cd5f2d0f.jpg",
+    "polygons": "8c59a635-1e0a-4311-8d90-5034cd5f2d0f_segnet.geojson",
+    "segmented": "8c59a635-1e0a-4311-8d90-5034cd5f2d0f_segnet.png",
+    "x": -70.65579547172412,
+    "y": -33.5328847369378
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 11.971,
+    "normal": "03486413-a593-4fac-9a4a-e9c0c718c0c0.jpg",
+    "polygons": "03486413-a593-4fac-9a4a-e9c0c718c0c0_segnet.geojson",
+    "segmented": "03486413-a593-4fac-9a4a-e9c0c718c0c0_segnet.png",
+    "x": -70.65559303538777,
+    "y": -33.532137318015955
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 280.113,
+    "normal": "e08dafe9-06bf-443e-9fa7-e6396e7f7f4d.jpg",
+    "polygons": "e08dafe9-06bf-443e-9fa7-e6396e7f7f4d_segnet.geojson",
+    "segmented": "e08dafe9-06bf-443e-9fa7-e6396e7f7f4d_segnet.png",
+    "x": -70.65574391059327,
+    "y": -33.532297938543714
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 12.954,
+    "normal": "f30c7799-45d5-4248-9d3b-52713536658b.jpg",
+    "polygons": "f30c7799-45d5-4248-9d3b-52713536658b_segnet.geojson",
+    "segmented": "f30c7799-45d5-4248-9d3b-52713536658b_segnet.png",
+    "x": -70.65569850142789,
+    "y": -33.532533319417325
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 192.954,
+    "normal": "6e6ccbc4-044a-447c-bb90-eb03c5a25836.jpg",
+    "polygons": "6e6ccbc4-044a-447c-bb90-eb03c5a25836_segnet.geojson",
+    "segmented": "6e6ccbc4-044a-447c-bb90-eb03c5a25836_segnet.png",
+    "x": -70.65571062724757,
+    "y": -33.53257726320735
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 192.954,
+    "normal": "165e56b3-f93d-4157-8086-6611865373ce.jpg",
+    "polygons": "165e56b3-f93d-4157-8086-6611865373ce_segnet.geojson",
+    "segmented": "165e56b3-f93d-4157-8086-6611865373ce_segnet.png",
+    "x": -70.65573486976889,
+    "y": -33.5326651175949
+  },
+  {
+    "directory": "1a861d30-3126-4536-8f35-7d8d72bf6a69",
+    "heading": 192.954,
+    "normal": "b58f2d31-4987-45d6-9c39-55c183cdb3ec.jpg",
+    "polygons": "b58f2d31-4987-45d6-9c39-55c183cdb3ec_segnet.geojson",
+    "segmented": "b58f2d31-4987-45d6-9c39-55c183cdb3ec_segnet.png",
+    "x": -70.65573486976889,
+    "y": -33.5326651175949
+  }
+]
