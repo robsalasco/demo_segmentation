@@ -38,9 +38,6 @@
         var panorama = new google.maps.StreetViewPanorama(
             document.getElementById('map'), {
                 position: { lat: -33.532137318015955, lng: -70.65559303538777 },
-                addressControlOptions: {
-                    position: google.maps.ControlPosition.BOTTOM_CENTER
-                },
                 pov: {
                     heading: 11.971,
                     pitch: 0
@@ -49,6 +46,7 @@
                 panControl: false,
                 enableCloseButton: false,
                 disableDefaultUI: true,
+                motionTrackingControl: false,
                 motionTracking: false
             });
     }
